@@ -1,0 +1,13 @@
+.add-list {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.add-list-btn {
+  cursor: pointer;
+  margin: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  background-color: white;
+}

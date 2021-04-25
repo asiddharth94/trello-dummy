@@ -1,0 +1,33 @@
+.add-modal {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  position: absolute;
+}
+
+.list-modal {
+  right: 12%;
+  top: 7%;
+}
+
+.card-modal {
+  bottom: 100%;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-form > * {
+  margin: 5px;
+}
+
+.btn-submit {
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red;
+}

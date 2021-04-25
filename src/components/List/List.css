@@ -1,0 +1,50 @@
+.list {
+  width: 20%;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  margin: 2rem;
+  position: relative;
+}
+
+.list-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  padding: 0 1rem;
+}
+
+.list-delete {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 100px);
+  overflow: scroll;
+}
+
+.list-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.list-add-card {
+  font-size: 2rem;
+  cursor: pointer;
+}
